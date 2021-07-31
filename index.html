@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./Develop/style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <h2 class="lead">A simple calendar app for scheduling your work day</h2>
+    <p id="currentDay" class="lead"></p>
+    Today's Date: <span id="currentdate" class="lead"></span>
+    </p>
+  </header>
+  <!-- Timeblocks go here -->
+  <div class="container time-block">
+    <!--9AM Timeblock-->
+    <div class="row timeblock" id="hour-9">
+      <div class="time col">
+        <p>9:00 AM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="9">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--10AM Timeblock-->
+    <div class="row timeblock" id="hour-10">
+      <div class="time col">
+        <p>10:00 AM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="10">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--11AM Timeblock-->
+    <div class="row timeblock" id="hour-11">
+      <div class="time col">
+        <p>11:00 AM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="11">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--12PM Timeblock-->
+    <div class="row timeblock" id="hour-12">
+      <div class="time col">
+        <p>NOON</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="12">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--1PM Timeblock-->
+    <div class="row timeblock" id="hour-13">
+      <div class="time col">
+        <p>1:00 PM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="1">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--2PM Timeblock-->
+    <div class="row timeblock" id="hour-14">
+      <div class="time col">
+        <p>2:00 PM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="2">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--3PM Timeblock-->
+    <div class="row timeblock" id="hour-15">
+      <div class="time col">
+        <p>3:00 PM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="3">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--4PM Timeblock-->
+    <div class="row timeblock" id="hour-16">
+      <div class="time col">
+        <p>4:00 PM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="4">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+    <!--5PM Timeblock-->
+    <div class="row timeblock" id="hour-17">
+      <div class="time col">
+        <p>5:00 PM</p>
+      </div>
+      <div class="task col-6 col-md-9 form-group">
+        <textarea id="5">Enter To Do Item</textarea>
+      </div>
+      <div class="save col">
+        <button type="button" class="btn saveBtn">
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./Develop/script.js"></script>
+</body>
+
+</html>
